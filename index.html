@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam AI - Start Your Assessment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Variabel CSS untuk kemudahan perubahan tema */
+        :root {
+            --primary-bg-start: #6a11cb;
+            /* Ungu gelap */
+            --primary-bg-end: #2575fc;
+            /* Biru cerah */
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --heading-color: #333333;
+            --button-bg: #2575fc;
+            --button-hover-bg: #0a56d0;
+            --modal-bg: rgba(0, 0, 0, 0.6);
+            --modal-content-bg: #ffffff;
+            --modal-button-confirm: #28a745;
+            --modal-button-confirm-hover: #218838;
+            --modal-button-cancel: #dc3545;
+            --modal-button-cancel-hover: #c82333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, var(--primary-bg-start) 0%, var(--primary-bg-end) 100%);
+            color: var(--text-color);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Efek latar belakang imajinatif */
+        body::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: moveBackground 30s linear infinite alternate;
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        @keyframes moveBackground {
+            0% {
+                transform: translate(0, 0);
+            }
+            100% {
+                transform: translate(50px, 50px);
+            }
+        }
+
+
+        .container {
+            background-color: var(--card-bg);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            z-index: 1;
+            transform: translateY(0);
+            transition: transform 0.5s ease-out, box-shadow 0.3s ease-out;
+            box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            margin-bottom: 25px;
+            font-size: 2.8em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background: -webkit-linear-gradient(45deg, var(--primary-bg-start), var(--primary-bg-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+
+        .start-button {
+            background-color: var(--button-bg);
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+            white-space: nowrap; /* Mencegah teks tombol pecah */
+        }
+
+        .start-button:hover {
+            background-color: var(--button-hover-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+        }
+
+        .start-button:active {
+            transform: translateY(0);
+            box-shadow: 0 3px 10px rgba(0, 123, 255, 0.2);
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: var(--modal-bg);
+            backdrop-filter: blur(5px);
+            animation: fadeIn 0.3s ease-out;
+            box-sizing: border-box; /* Penting untuk modal juga */
+        }
+
+        .modal-content {
+            background-color: var(--modal-content-bg);
+            margin: 8% auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 450px;
+            text-align: left;
+            animation: slideIn 0.3s ease-out;
+            position: relative;
+            z-index: 101;
+            box-sizing: border-box; /* Penting untuk modal-content */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .modal-content h2 {
+            text-align: center;
+            color: var(--heading-color);
+            margin-bottom: 25px;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+
+        .modal-content label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--text-color);
+            font-size: 0.95em;
+        }
+
+        .modal-content input[type="text"],
+        .modal-content input[type="number"] {
+            width: 100%; /* Ubah dari calc(100% - 20px) menjadi 100% */
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            box-sizing: border-box; /* Pastikan padding dimasukkan ke dalam width */
+            font-size: 1em;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .modal-content input[type="text"]:focus,
+        .modal-content input[type="number"]:focus {
+            border-color: var(--primary-bg-end);
+            box-shadow: 0 0 0 3px rgba(37, 117, 252, 0.2);
+            outline: none;
+        }
+
+        .modal-buttons {
+            text-align: center;
+            margin-top: 30px;
+            display: flex; /* Gunakan flexbox untuk tata letak tombol */
+            justify-content: center;
+            flex-wrap: wrap; /* Izinkan tombol wrap ke baris berikutnya */
+            gap: 15px; /* Jarak antar tombol */
+        }
+
+        .modal-buttons button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            /* margin: 0 10px; /* Hapus margin horizontal yang tetap */
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            flex-grow: 1; /* Biarkan tombol tumbuh mengisi ruang jika perlu */
+            max-width: 200px; /* Batasi lebar maksimum tombol */
+        }
+
+        .modal-buttons button[type="submit"] {
+            background-color: var(--modal-button-confirm);
+            color: white;
+            box-shadow: 0 4px 10px rgba(40, 167, 69, 0.2);
+        }
+
+        .modal-buttons button[type="submit"]:hover {
+            background-color: var(--modal-button-confirm-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .modal-buttons button[type="button"] {
+            /* Cancel button */
+            background-color: var(--modal-button-cancel);
+            color: white;
+            box-shadow: 0 4px 10px rgba(220, 53, 69, 0.2);
+        }
+
+        .modal-buttons button[type="button"]:hover {
+            background-color: var(--modal-button-cancel-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 15px rgba(220, 53, 69, 0.3);
+        }
+
+        /* --- Media Queries untuk Responsif Desain --- */
+
+        /* Untuk layar yang lebih kecil dari 768px (misalnya tablet dalam mode portrait) */
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px;
+                width: 95%; /* Agak lebih lebar di tablet */
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            .tagline {
+                font-size: 1.1em;
+                margin-bottom: 30px;
+            }
+
+            .start-button {
+                padding: 16px 35px;
+                font-size: 1.2em;
+            }
+
+            .modal-content {
+                margin: 10% auto; /* Sesuaikan margin modal */
+                padding: 25px;
+            }
+
+            .modal-content h2 {
+                font-size: 1.6em;
+            }
+
+            .modal-content input[type="text"],
+            .modal-content input[type="number"] {
+                padding: 10px;
+            }
+
+            .modal-buttons button {
+                padding: 10px 20px;
+                font-size: 0.95em;
+                flex-basis: 45%; /* Setiap tombol mengambil hampir setengah lebar */
+                max-width: unset; /* Hapus batasan lebar maksimum */
+            }
+        }
+
+        /* Untuk layar yang lebih kecil dari 480px (misalnya sebagian besar ponsel) */
+        @media (max-width: 480px) {
+            body {
+                padding: 15px; /* Sedikit padding di body */
+            }
+
+            .container {
+                padding: 25px; /* Kurangi padding container */
+                border-radius: 10px; /* Kurangi border radius */
+                width: calc(100% - 30px); /* Ambil hampir seluruh lebar layar dengan padding body */
+            }
+
+            h1 {
+                font-size: 1.8em; /* Kurangi ukuran judul utama */
+                margin-bottom: 15px;
+            }
+
+            .tagline {
+                font-size: 0.9em; /* Kurangi ukuran tagline */
+                margin-bottom: 25px;
+            }
+
+            .start-button {
+                padding: 14px 25px; /* Kurangi padding tombol */
+                font-size: 1.0em; /* Kurangi ukuran font tombol */
+            }
+
+            .modal-content {
+                margin: 5% auto; /* Sesuaikan margin modal */
+                padding: 18px; /* Kurangi padding modal content */
+                border-radius: 8px; /* Kurangi border radius modal */
+                width: 95%; /* Ambil hampir seluruh lebar layar */
+            }
+
+            .modal-content h2 {
+                font-size: 1.4em; /* Kurangi ukuran judul modal */
+                margin-bottom: 20px;
+            }
+
+            .modal-content label {
+                font-size: 0.9em;
+            }
+
+            .modal-content input[type="text"],
+            .modal-content input[type="number"] {
+                padding: 8px; /* Kurangi padding input */
+                margin-bottom: 15px;
+            }
+
+            .modal-buttons {
+                flex-direction: column; /* Tombol bertumpuk ke bawah */
+                gap: 10px; /* Jarak antar tombol saat bertumpuk */
+            }
+
+            .modal-buttons button {
+                width: 100%; /* Tombol mengambil lebar penuh */
+                max-width: unset; /* Hapus batasan lebar maksimum */
+                padding: 10px 15px; /* Sesuaikan padding tombol */
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exam AI</h1>
+        <p class="tagline">Sistem Ujian Interaktif Bertenaga Kecerdasan Buatan</p>
+        <button class="start-button" onclick="document.getElementById('infoModal').style.display='block'">
+            Mulai Ujian
+        </button>
+    </div>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <h2>Informasi Peserta</h2>
+            <form action="/start-exam" method="post">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required />
+
+                <label for="alamat">Asal Instansi/Kota:</label>
+                <input type="text" id="alamat" name="alamat" placeholder="Contoh: Universitas A / Jakarta" required />
+
+                <label for="durasi">Durasi Ujian (menit):</label>
+                <input type="number" id="durasi" name="durasi" value="10" min="1" placeholder="Minimal 1 menit" required />
+
+                <div class="modal-buttons">
+                    <button type="submit">Mulai Ujian Sekarang</button>
+                    <button type="button" onclick="document.getElementById('infoModal').style.display='none'">
+                        Batal
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
