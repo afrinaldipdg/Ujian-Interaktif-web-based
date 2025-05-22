@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lembar Soal Ujian</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --danger-color: #e74c3c;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #dfe6e9;
+        }
+
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .timer {
+            font-weight: bold;
+            color: var(--danger-color);
+            font-size: 1.2em;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .question {
+            background: var(--light-gray);
+            padding: 18px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .question h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--text-color);
+            font-size: 1.1em;
+        }
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 8px 0;
+        }
+
+        .options label:hover {
+            background-color: #e9ecef;
+            border-radius: 4px;
+            padding-left: 5px;
+        }
+
+        .options input[type="radio"] {
+            margin-right: 10px;
+            transform: scale(1.1);
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .button-group button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-group button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="examTitle">Ujian</h1>
+            <div class="timer">Waktu tersisa: <span id="time"></span></div>
+        </div>
+
+        <p>Nama: <span id="namaPeserta"></span></p>
+        <p>Alamat: <span id="alamatPeserta"></span></p>
+
+        <form id="examForm">
+            <div class="button-group">
+                <button type="submit">Akhiri Ujian</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const examForm = document.getElementById("examForm");
+            const namaPesertaSpan = document.getElementById("namaPeserta");
+            const alamatPesertaSpan = document.getElementById("alamatPeserta");
+            const timerDisplay = document.getElementById("time");
+
+            const examId = localStorage.getItem('currentExamId');
+
+            if (!examId) {
+                alert("ID Ujian tidak ditemukan. Silakan mulai ulang ujian dari halaman awal.");
+                window.location.href = "/";
+                return;
+            }
+
+            async function loadExamData() {
+                try {
+                    const response = await fetch(`/get-exam/${examId}`);
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        throw new Error(`HTTP error! status: ${response.status} - ${errorData.error || response.statusText}`);
+                    }
+                    const examData = await response.json();
+
+                    namaPesertaSpan.textContent = examData.nama;
+                    alamatPesertaSpan.textContent = examData.alamat;
+
+                    const remaining = Math.floor((examData.endTime - Date.now()) / 1000);
+                    if (remaining <= 0) {
+                        alert("Waktu ujian telah habis!");
+                        submitExam(); // Panggil fungsi submit via JS
+                        return;
+                    }
+
+                    startTimer(remaining, timerDisplay, examForm);
+
+                    examData.questions.forEach((q, index) => {
+                        const div = document.createElement("div");
+                        div.className = "question";
+
+                        const questionHTML = `
+                            <h3>${index + 1}. ${q.question}</h3>
+                            <div class="options">
+                                ${q.options.map(opt => `
+                                    <label>
+                                        <input type="radio" name="question-${index}" value="${opt}" required />
+                                        ${opt}
+                                    </label>
+                                `).join('')}
+                            </div>
+                        `;
+
+                        div.innerHTML = questionHTML;
+                        examForm.insertBefore(div, examForm.querySelector(".button-group"));
+                    });
+
+                    // Hapus baris ini karena kita tidak lagi menggunakan form.action untuk submit
+                    // examForm.action = `/submit-exam/${examId}`;
+
+                } catch (e) {
+                    console.error('Gagal memuat data ujian:', e);
+                    alert('Terjadi kesalahan saat memuat soal ujian. Silakan coba lagi. ' + e.message);
+                    window.location.href = '/';
+                }
+            }
+
+            function startTimer(duration, display, form) {
+                let timer = duration;
+                let minutes, seconds;
+                const interval = setInterval(() => {
+                    minutes = parseInt(timer / 60, 10);
+                    seconds = parseInt(timer % 60, 10);
+
+                    minutes = minutes < 10 ? "0" + minutes : minutes;
+                    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                    display.textContent = minutes + ":" + seconds;
+
+                    if (--timer < 0) {
+                        clearInterval(interval);
+                        alert("Waktu ujian telah habis!");
+                        submitExam(); // Panggil fungsi submit via JS
+                    }
+                }, 1000);
+            }
+
+            // Fungsi baru untuk submit ujian via AJAX
+            async function submitExam() {
+                const formData = new FormData(examForm);
+                const answers = {};
+                for (let [key, value] of formData.entries()) {
+                    answers[key] = value;
+                }
+
+                try {
+                    const response = await fetch(`/submit-exam/${examId}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(answers)
+                    });
+
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        throw new Error(`HTTP error! status: ${response.status} - ${errorData.error || response.statusText}`);
+                    }
+
+                    const result = await response.json();
+                    console.log("Ujian berhasil disubmit:", result);
+
+                    // Redirect ke halaman log setelah sukses submit
+                    window.location.href = '/log.html';
+
+                } catch (e) {
+                    console.error('Gagal submit ujian:', e);
+                    alert('Terjadi kesalahan saat mengakhiri ujian. Silakan coba lagi atau hubungi administrator.');
+                    // Opsional: Redirect ke halaman awal jika ada masalah serius
+                    // window.location.href = '/';
+                }
+            }
+
+            // Tambahkan event listener untuk submit form
+            examForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Mencegah submit form bawaan browser
+                submitExam(); // Panggil fungsi submit ujian via AJAX
+            });
+
+            loadExamData();
+        });
+    </script>
+</body>
+
+</html>
