@@ -1,60 +1,86 @@
-# Ujian-Interaktif-web-based
+# 🧠 AI-Powered Online Exam App
 
-Proyek Uji Coba Sederhana
-Selamat datang di proyek uji coba sederhana ini! Repositori ini berisi implementasi dasar dari sebuah aplikasi web yang menampilkan fungsionalitas sederhana untuk tujuan pengujian dan pembelajaran.
+Selamat datang di repositori **AI-Powered Online Exam App**, sebuah aplikasi ujian online berbasis web yang sederhana namun fungsional. Proyek ini dibuat sebagai percobaan kecil untuk mengimplementasikan penyajian soal acak berbasis JSON dengan tampilan responsif dan navigasi ujian yang jelas.
 
-Ikhtisar Proyek
-Proyek ini adalah sebuah aplikasi web ringan yang dibangun dengan Node.js. Tujuan utamanya adalah sebagai sandbox untuk menguji konsep dasar pengembangan web dan interaksi frontend-backend yang minimalis.
+🌐 **Coba aplikasinya di sini**: [https://crocus-scientific-toque.glitch.me/](https://crocus-scientific-toque.glitch.me/)
 
-Struktur File
-Berikut adalah struktur file utama dari repositori ini:
+---
 
-.
-├── exam.html                 # Halaman untuk ujian/kuis
-├── exam-question-ai.json     # Data pertanyaan untuk ujian (AI-generated/simulasi)
-├── index.html                # Halaman utama aplikasi
-├── log.html                  # Halaman untuk menampilkan log
-├── log.txt                   # File teks untuk penyimpanan log sederhana
-├── node_modules              # Dependensi Node.js
-├── package.json              # Metadata proyek dan daftar dependensi
-├── package-lock.json         # Mengunci versi dependensi
-├── server.js                 # Logika backend server Node.js
-├── shrinkwrap.yaml           # File shrinkwrap (jika digunakan oleh npm atau yarn versi lama)
-└── test.html                 # Halaman untuk pengujian tambahan
-Demonstrasi Langsung
-Anda bisa mencoba langsung aplikasi ini dan melihat kinerjanya melalui tautan berikut:
+## 📂 Struktur Proyek
 
-https://crocus-scientific-toque.glitch.me/
+├── exam.html # Halaman informasi ujian
+├── exam-question-ai.json # Kumpulan soal ujian dalam format JSON
+├── index.html # Landing page utama
+├── log.html # Halaman log aktivitas ujian
+├── log.txt # File log text (opsional)
+├── package.json # Metadata proyek dan dependensi npm
+├── package-lock.json # Kunci versi dependensi
+├── server.js # Server backend Node.js
+├── shrinkwrap.yaml # File pengunci dependensi tambahan
+└── test.html # Lembar soal ujian (tampilan utama ujian)
 
-Cara Menjalankan (Lokal)
-Untuk menjalankan proyek ini secara lokal di mesin Anda, ikuti langkah-langkah berikut:
 
-Clone Repositori:
+---
 
-Bash
 
-git clone https://github.com/afrinaldipdg/Ujian-Interaktif-web-based.git
-cd Ujian-Interaktif-web-based
+---
 
-Instal Dependensi:
-Pastikan Anda memiliki Node.js dan npm (atau yarn) terinstal. Kemudian, instal semua dependensi proyek:
+## 🚀 Fitur Utama
 
-Bash
+- ✅ Menampilkan soal secara acak dari JSON
+- ✅ Tampilan responsif & ringan
+- ✅ Server ringan berbasis Node.js
+- ✅ Logging sesi ujian (eksperimental)
+- ✅ Bisa di-deploy di Glitch, Vercel, atau layanan serupa
 
+---
+
+## 🛠️ Cara Menjalankan Lokal
+
+```bash
+# Clone repository
+git clone https://github.com/username/nama-repo.git
+cd nama-repo
+
+# Instal dependensi
 npm install
-# atau
-yarn install
-Jalankan Server:
-Setelah dependensi terinstal, jalankan server Node.js:
 
-Bash
-
+# Jalankan server
 node server.js
-Akses Aplikasi:
-Buka browser web Anda dan kunjungi http://localhost:3000 (atau port lain yang ditentukan dalam server.js).
+```
 
-Teknologi yang Digunakan
-Node.js: Lingkungan runtime JavaScript untuk sisi server.
-HTML5: Struktur halaman web.
-Kontribusi
-Proyek ini dibuat sebagai uji coba sederhana. Namun, jika Anda memiliki saran atau ingin berkontribusi, jangan ragu untuk membuka issue atau mengajukan pull request.
+Lalu buka di browser:
+http://localhost:3000
+
+📘 File Soal (exam-question-ai.json)
+```json
+[
+  {
+    "id": "1",
+    "question": "Apa itu Natural Language Processing?",
+    "options": ["Ilmu tentang pemrosesan citra", "Teknologi bahasa manusia", "Bahasa pemrograman", "Basis data"],
+    "answer": "Teknologi bahasa manusia"
+  }
+]
+```
+
+
+📸 Tampilan Antarmuka
+
+| Halaman      | Deskripsi                        |
+| ------------ | -------------------------------- |
+| `index.html` | Landing page dengan tombol mulai |
+| `exam.html`  | Informasi sebelum ujian dimulai  |
+| `test.html`  | Halaman soal dengan navigasi     |
+| `log.html`   | Halaman catatan ujian (opsional) |
+
+
+📄 Lisensi
+Proyek ini menggunakan lisensi MIT. Bebas digunakan, dimodifikasi, dan dikembangkan untuk keperluan edukatif maupun eksperimen pribadi.
+
+🙏 Kontribusi & Kredit
+Proyek ini merupakan hasil eksperimen pribadi yang dikembangkan untuk pembelajaran dan eksplorasi ide.
+
+Dibuat dengan ❤️ oleh Afrinaldi(https://github.com/afrinaldipdg)
+
+Terima kasih telah mengunjungi repositori ini! 🚀
