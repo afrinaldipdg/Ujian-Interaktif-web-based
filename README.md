@@ -39,7 +39,7 @@ Selamat datang di repositori **Online Exam App Web-based**, sebuah aplikasi ujia
 
 ```bash
 # Clone repository
-git clone https://github.com/username/nama-repo.git
+git clone https://github.com/afrinaldipdg/Ujian-Interaktif-web-based.git
 cd nama-repo
 
 # Instal dependensi
