@@ -76,7 +76,7 @@ http://localhost:3000
 
 
 📄 Lisensi
-Proyek ini menggunakan lisensi MIT. Bebas digunakan, dimodifikasi, dan dikembangkan untuk keperluan edukatif maupun eksperimen pribadi.
+Proyek ini menggunakan lisensi open source. Bebas digunakan, dimodifikasi, dan dikembangkan untuk keperluan edukatif maupun eksperimen pribadi.
 
 🙏 Kontribusi & Kredit
 Proyek ini merupakan hasil eksperimen pribadi yang dikembangkan untuk pembelajaran dan eksplorasi ide.
