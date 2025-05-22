@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruksi Ujian</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .start-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer; /* Menambahkan cursor pointer */
+        }
+
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Instruksi Ujian</h1>
+        <p>
+            Selamat datang di Ujian AI kami. Berikut adalah beberapa hal yang perlu Anda ketahui sebelum memulai:
+        </p>
+        <ul>
+            <li>
+                Ujian ini terdiri dari sekitar 10 soal pilihan ganda (jumlah soal bisa disesuaikan di server).
+            </li>
+            <li>
+                Durasi ujian akan ditentukan pada halaman sebelumnya (biasanya 10 menit).
+            </li>
+            <li>
+                Setelah waktu habis atau Anda menekan tombol "Akhiri Ujian", jawaban Anda akan dikumpulkan dan dinilai.
+            </li>
+            <li>
+                Hasil ujian akan ditampilkan setelah penilaian selesai, Anda bisa melihatnya di halaman riwayat.
+            </li>
+            <li>
+                Pastikan Anda memiliki koneksi internet yang stabil selama ujian.
+            </li>
+        </ul>
+        <a href="#" class="start-button" onclick="startExam()">Mulai Ujian</a>
+
+        <script>
+            // Fungsi ini akan dipanggil saat tombol "Mulai Ujian" diklik
+            function startExam() {
+                const params = new URLSearchParams(window.location.search);
+                // Dapatkan examId dari parameter URL 'examId'
+                const examId = params.get('examId');
+
+                if (examId) {
+                    // Simpan examId ke localStorage agar test.html bisa mengambilnya
+                    localStorage.setItem('currentExamId', examId);
+                    // Arahkan ke test.html, test.html akan mengambil examId dari localStorage
+                    window.location.href = '/test.html';
+                } else {
+                    alert("ID ujian tidak ditemukan. Silakan ulangi proses dari awal.");
+                    window.location.href = '/'; // Kembali ke halaman awal
+                }
+            }
+
+            // Opsional: Untuk memastikan examId selalu ada saat halaman dimuat
+            // Jika Anda ingin lebih ketat dalam memastikan alur, uncomment kode ini:
+            /*
+            document.addEventListener("DOMContentLoaded", () => {
+                const params = new URLSearchParams(window.location.search);
+                const examId = params.get('examId');
+                if (!examId) {
+                    alert("Akses tidak valid. Silakan mulai ujian dari halaman awal.");
+                    window.location.href = '/';
+                }
+            });
+            */
+        </script>
+
+    </div>
+</body>
+
+</html>
