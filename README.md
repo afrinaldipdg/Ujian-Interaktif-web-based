@@ -7,7 +7,7 @@ Selamat datang di repositori **Online Exam App Web-based**, sebuah aplikasi ujia
 ---
 
 ## 📂 Struktur Proyek
-
+```
 ├── exam.html # Halaman informasi ujian
 ├── exam-question-ai.json # Kumpulan soal ujian dalam format JSON
 ├── index.html # Landing page utama
@@ -19,7 +19,7 @@ Selamat datang di repositori **Online Exam App Web-based**, sebuah aplikasi ujia
 ├── shrinkwrap.yaml # File pengunci dependensi tambahan
 └── test.html # Lembar soal ujian (tampilan utama ujian)
 
-
+```
 ---
 
 
