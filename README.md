@@ -1,6 +1,6 @@
-# 🧠 AI-Powered Online Exam App
+# 🧠 Online Exam App Web-based
 
-Selamat datang di repositori **AI-Powered Online Exam App**, sebuah aplikasi ujian online berbasis web yang sederhana namun fungsional. Proyek ini dibuat sebagai percobaan kecil untuk mengimplementasikan penyajian soal acak berbasis JSON dengan tampilan responsif dan navigasi ujian yang jelas.
+Selamat datang di repositori **Online Exam App Web-based**, sebuah aplikasi ujian online berbasis web yang sederhana namun fungsional. Proyek ini dibuat sebagai percobaan kecil untuk mengimplementasikan penyajian soal acak berbasis JSON dengan tampilan responsif dan navigasi ujian yang jelas.
 
 🌐 **Coba aplikasinya di sini**: [https://crocus-scientific-toque.glitch.me/](https://crocus-scientific-toque.glitch.me/)
 
@@ -81,6 +81,6 @@ Proyek ini menggunakan lisensi MIT. Bebas digunakan, dimodifikasi, dan dikembang
 🙏 Kontribusi & Kredit
 Proyek ini merupakan hasil eksperimen pribadi yang dikembangkan untuk pembelajaran dan eksplorasi ide.
 
-Dibuat dengan ❤️ oleh Afrinaldi(https://github.com/afrinaldipdg)
+Dibuat dengan ❤️ oleh [Afrinaldi](https://github.com/afrinaldipdg)
 
 Terima kasih telah mengunjungi repositori ini! 🚀
