@@ -52,14 +52,20 @@ node server.js
 Lalu buka di browser:
 http://localhost:3000
 
-📘 File Soal (exam-question-ai.json)
+📘 File Soal dummy (exam-question-ai.json)
 ```json
 [
   {
-    "id": "1",
-    "question": "Apa itu Natural Language Processing?",
-    "options": ["Ilmu tentang pemrosesan citra", "Teknologi bahasa manusia", "Bahasa pemrograman", "Basis data"],
-    "answer": "Teknologi bahasa manusia"
+    "id": 2,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
   }
 ]
 ```
