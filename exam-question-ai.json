@@ -1,0 +1,3602 @@
+[
+  {
+    "id": 1,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 2,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 3,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 4,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 5,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 6,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 7,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 9,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 10,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 11,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 12,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 13,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 14,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 15,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 16,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 17,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 18,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 19,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 20,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 21,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 22,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 23,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 24,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 25,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 26,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 27,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 29,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 30,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 31,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 32,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 33,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 34,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 35,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 36,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 37,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 38,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 39,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 40,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 41,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 42,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 43,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 44,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 45,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 46,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 47,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 48,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 49,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 50,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 51,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 52,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 53,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 54,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 55,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 56,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 57,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 58,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 59,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 60,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 61,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 62,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 63,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 64,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 65,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 66,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 67,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 68,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 69,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 70,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 71,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 72,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 73,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 74,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 75,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 76,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 77,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 78,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 79,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 80,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 81,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 82,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 83,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 84,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 85,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 86,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 87,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 88,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 89,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 90,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 91,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 92,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 93,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 94,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 95,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 96,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 97,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 98,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 99,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 100,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 101,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 102,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 103,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 104,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 105,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 106,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 107,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 108,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 109,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 110,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 111,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 112,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 113,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 114,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 115,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 116,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 117,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 118,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 119,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 120,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 121,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 122,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 123,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 124,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 125,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 126,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 127,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 128,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 129,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 130,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 131,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 132,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 133,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 134,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 135,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 136,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 137,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 138,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 139,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 140,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 141,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 142,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 143,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 144,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 145,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 146,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 147,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 148,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 149,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 150,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 151,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 152,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 153,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 154,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 155,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 156,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 157,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 158,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 159,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 160,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 161,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 162,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 163,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 164,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 165,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 166,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 167,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 168,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 169,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 170,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 171,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 172,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 173,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 174,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 175,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 176,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 177,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 178,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 179,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 180,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 181,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 182,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 183,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 184,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 185,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 186,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 187,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 188,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 189,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 190,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 191,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 192,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 193,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 194,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 195,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 196,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 197,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 198,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 199,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 200,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 201,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 202,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 203,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 204,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 205,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 206,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 207,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 208,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 209,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 210,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 211,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 212,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 213,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 214,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 215,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 216,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 217,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 218,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 219,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 220,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 221,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 222,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 223,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 224,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 225,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 226,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 227,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 228,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 229,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 230,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 231,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 232,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 233,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 234,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 235,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 236,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 237,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 238,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 239,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 240,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 241,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 242,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 243,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 244,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 245,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 246,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 247,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 248,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 249,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 250,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 251,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 252,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 253,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 254,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 255,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 256,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 257,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 258,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 259,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 260,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 261,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 262,
+    "question": "Which component of Azure Language Service is used to detect sentiment in text?",
+    "options": [
+      "A. Translator",
+      "B. Question Answering",
+      "C. Text Analytics",
+      "D. Language Detection"
+    ],
+    "answer": "C",
+    "explanation": "Text Analytics can detect sentiment, key phrases, and named entities."
+  },
+  {
+    "id": 263,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 264,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 265,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 266,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 267,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 268,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 269,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 270,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 271,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  },
+  {
+    "id": 272,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 273,
+    "question": "You want to deploy your AI model using REST API on Azure. What is the most suitable option?",
+    "options": [
+      "A. Azure Machine Learning Web Service",
+      "B. Azure Logic Apps",
+      "C. Azure Search",
+      "D. Azure Synapse"
+    ],
+    "answer": "A",
+    "explanation": "Azure ML can deploy models as web services for easy REST API integration."
+  },
+  {
+    "id": 274,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 275,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 276,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 277,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 278,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 279,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 280,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 281,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 282,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 283,
+    "question": "What is the purpose of LUIS in the Azure ecosystem?",
+    "options": [
+      "A. Speech-to-text transcription",
+      "B. Intent recognition and entity extraction",
+      "C. Real-time translation",
+      "D. Custom image classification"
+    ],
+    "answer": "B",
+    "explanation": "LUIS is used to recognize user intents and extract entities from natural language input."
+  },
+  {
+    "id": 284,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 285,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 286,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 287,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 288,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 289,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 290,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 291,
+    "question": "What format is typically used to export a model from Custom Vision for edge deployment?",
+    "options": [
+      "A. JSON",
+      "B. ONNX",
+      "C. XML",
+      "D. CSV"
+    ],
+    "answer": "B",
+    "explanation": "Custom Vision allows ONNX export for compatibility with edge devices."
+  },
+  {
+    "id": 292,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 293,
+    "question": "Which Azure service provides personalized content recommendations?",
+    "options": [
+      "A. Azure Form Recognizer",
+      "B. Azure Personalizer",
+      "C. Azure Bot Framework",
+      "D. Azure Media Services"
+    ],
+    "answer": "B",
+    "explanation": "Azure Personalizer uses reinforcement learning to deliver relevant content."
+  },
+  {
+    "id": 294,
+    "question": "You want to extract key-value pairs and tables from scanned forms. Which Azure service should you use?",
+    "options": [
+      "A. Azure Computer Vision",
+      "B. Azure Form Recognizer",
+      "C. Azure Text Analytics",
+      "D. Azure Bot Framework"
+    ],
+    "answer": "B",
+    "explanation": "Azure Form Recognizer is designed for extracting structured data from forms."
+  },
+  {
+    "id": 295,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 296,
+    "question": "Which Azure tool is used to moderate images, text, and video content?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Firewall",
+      "C. Azure Content Moderator",
+      "D. Azure AI Search"
+    ],
+    "answer": "C",
+    "explanation": "Azure Content Moderator helps detect offensive, unwanted, or risky content."
+  },
+  {
+    "id": 297,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 298,
+    "question": "Which Azure service can automatically generate captions and video insights?",
+    "options": [
+      "A. Azure Video Analyzer",
+      "B. Azure OpenAI",
+      "C. Azure Bot Framework",
+      "D. Azure Form Recognizer"
+    ],
+    "answer": "A",
+    "explanation": "Azure Video Analyzer helps generate captions, extract insights, and recognize scenes."
+  },
+  {
+    "id": 299,
+    "question": "Which Azure service is best suited for recognizing printed and handwritten text in images?",
+    "options": [
+      "A. Azure Translator",
+      "B. Azure Form Recognizer",
+      "C. Azure Computer Vision",
+      "D. Azure Content Moderator"
+    ],
+    "answer": "C",
+    "explanation": "Azure Computer Vision provides OCR to detect printed and handwritten text."
+  },
+  {
+    "id": 300,
+    "question": "Which Azure service allows you to create a knowledge base for natural language queries?",
+    "options": [
+      "A. Azure QnA Maker (deprecated)",
+      "B. Azure Bot Framework",
+      "C. Azure Language Service - Question Answering",
+      "D. Azure Logic Apps"
+    ],
+    "answer": "C",
+    "explanation": "Azure Language Service - Question Answering replaces QnA Maker for better question matching."
+  }
+]
