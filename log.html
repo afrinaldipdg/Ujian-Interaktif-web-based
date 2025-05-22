@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat Hasil Ujian</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --success-color: #2ecc71;
+            --danger-color: #e74c3c;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #dfe6e9;
+        }
+
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--text-color);
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .result-item {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .result-item.passed {
+            border-left-color: var(--success-color);
+        }
+
+        .result-item.failed {
+            border-left-color: var(--danger-color);
+        }
+
+        .result-item h3 {
+            margin-top: 0;
+            color: var(--text-color);
+        }
+
+        .result-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .result-details p {
+            margin: 5px 0;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .status.passed {
+            background-color: rgba(46, 204, 113, 0.1);
+            color: var(--success-color);
+        }
+
+        .status.failed {
+            background-color: rgba(231, 76, 60, 0.1);
+            color: var(--danger-color);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 600px) {
+            .result-details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Riwayat Hasil Ujian</h1>
+        <div id="results-container">
+            </div>
+        <a href="/" class="btn">Kembali ke Halaman Utama</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const resultsContainer = document.getElementById('results-container');
+            
+            try {
+                // Coba ambil dari server terlebih dahulu
+                const response = await fetch('/exam-results');
+                if (response.ok) {
+                    const results = await response.json();
+                    displayResults(results);
+                } else {
+                    // Fallback ke localStorage jika server tidak merespon
+                    const localResults = JSON.parse(localStorage.getItem('examResults') || '[]');
+                    displayResults(localResults);
+                }
+            } catch (error) {
+                console.error('Gagal mengambil hasil ujian:', error);
+                const localResults = JSON.parse(localStorage.getItem('examResults') || '[]');
+                displayResults(localResults);
+            }
+
+            function displayResults(results) {
+                if (results.length === 0) {
+                    resultsContainer.innerHTML = `
+                        <div class="empty-state">
+                            <p>Belum ada hasil ujian yang tersedia.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                resultsContainer.innerHTML = '';
+                results.forEach(result => {
+                    const resultDiv = document.createElement('div');
+                    resultDiv.className = `result-item ${result.lulus ? 'passed' : 'failed'}`;
+                    
+                    resultDiv.innerHTML = `
+                        <h3>Ujian ${new Date(result.timestamp).toLocaleString()}</h3>
+                        <div class="result-details">
+                            <p><strong>Nama:</strong> ${result.nama}</p>
+                            <p><strong>Alamat:</strong> ${result.alamat}</p>
+                            <p><strong>Nilai:</strong> ${result.nilai.toFixed(2)}</p>
+                            <p><strong>Status:</strong> <span class="status ${result.lulus ? 'passed' : 'failed'}">${result.lulus ? 'Lulus' : 'Gagal'}</span></p>
+                            <p><strong>Waktu:</strong> ${result.waktuPengerjaan} menit</p>
+                            <p><strong>Benar:</strong> ${result.jumlahBenar} soal</p>
+                            <p><strong>Salah:</strong> ${result.jumlahSalah} soal</p>
+                        </div>
+                    `;
+                    
+                    resultsContainer.appendChild(resultDiv);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
